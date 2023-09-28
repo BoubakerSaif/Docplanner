@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 3000px;
+}
+/* Header CSS */
+.header {
+  position: sticky;
+  height: 60px;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoImage {
+  width: 300px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #ababab;
+}
+a:hover {
+  color: 00b39b;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+.dropdown-content a {
+  line-height: 120%;
+}
+.dropdown-content ul li {
+  margin-top: 18px;
+}
+.dropdown-content ul {
+  list-style: none;
+  width: 200px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropdown-content a:hover {
+  background-color: #f6f8f8;
+}
+
+/* Hero CSS */
+.hero {
+  height: 350px;
+  width: 1000px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-rows: 20% 20% 50%;
+  text-align: center;
+  align-items: center;
+}
+.heroh {
+  font-family: Work Sans, Arial, sans-serif;
+  color: #00b39b;
+}
+
+.twopara {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  width: 460px;
+  line-height: 1.75;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* Boxes Css */
+.boxes {
+  margin: 0 auto;
+  width: 1000px;
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  font-family: Work Sans, Arial, sans-serif;
+}
+h2 {
+  color: #fff;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.box1 {
+  background-color: #00ccb1;
+  color: #fff;
+  width: 300px;
+  border-radius: 9px;
+  display: grid;
+  grid-template-rows: 15% 15% 15% 30% 10% 15%;
+}
+
+.box2 {
+  background-color: #3d83df;
+  color: #fff;
+  width: 300px;
+  border-radius: 9px;
+  display: grid;
+  grid-template-rows: 15% 15% 15% 30% 10% 15%;
+}
+.box3 {
+  background-color: #1b2734;
+  color: #fff;
+  width: 300px;
+  border-radius: 9px;
+  display: grid;
+  grid-template-rows: 15% 15% 15% 30% 10% 15%;
+}
+
+.e1 {
+  grid-row: 2/3;
+  margin-left: 25px;
+}
+.e2 {
+  grid-row: 3/4;
+  margin-left: 25px;
+}
+
+.e3 {
+  grid-row: 4/5;
+  margin-left: 25px;
+}
+
+.selection {
+  grid-row: 6/7;
+  margin-left: 25px;
+}
